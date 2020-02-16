@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "node-spotify-api": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rfinkley/liri"
   }
 }
