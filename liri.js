@@ -1,10 +1,13 @@
 require("dotenv").config();
+let moment = require("moment");
 var Spotify = require('node-spotify-api');
 let keys = require("./keys.js");
 let spotify = new Spotify(keys.spotify);
 let axios = require("axios");
 
 var action = process.argv[2];
+//Create a variable to handle the full search agrument
+let args = "";
 
 switch (action) {
     case "concert-this":
@@ -12,33 +15,41 @@ switch (action) {
         break;
 }
 
-//concert-this
-function concertThis() {
-
-    let nodeArgs = process.argv;
-
-    let artist = "";
-
-    for (let i = 3; i < nodeArgs.length; i++) {
-        if (i > 3 && i < nodeArgs.length) {
-            artist = artist + "%20" + nodeArgs[i];
-        } else {
-            artist += nodeArgs[i];
+function getArgs() {
+        //Grab all the command line arguments
+        let nodeArgs = process.argv;
+        //Loop through the process.argv arguments starting at the 3rd index
+        for (let i = 3; i < nodeArgs.length; i++) {
+            if (i > 3 && i < nodeArgs.length) {
+                args = args + "%20" + nodeArgs[i];
+            } else {
+                args += nodeArgs[i];
+            }
         }
-    }
+}
 
-    let queryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
+//concert-this function
+function concertThis() {
+    getArgs();
+    //Create the query url for bandsintown.com
+    let queryUrl = "https://rest.bandsintown.com/artists/" + args + "/events?app_id=codingbootcamp";
 
-    console.log(queryUrl);
+    //Make axios GET request
     axios.get(queryUrl).then(
         function (response) {
-            console.log(`Upcoming concerts for ${artist}:`);
-            console.log(response.data.length);
+            //Only the first index of the bandsintown JSON response has the artist name so I grab the artist name and log it to the console
+            let artistName = response.data[0].artist.name;
+            console.log(`Upcoming concerts for ${artistName}:`);
+            //Loop through the response data and log city, region, country, venue and date for each result found
             let responseLength = response.data.length;
-            // console.log(response.data[1].venue.name.toString());
             for (let i=0;i<responseLength;i++) {
-                var concertInfo = `${response.data[i].city}, ${response.data[i].country} at ${response.data[i].name}`; 
-                console.log(`${response.data[i].venue.city.toString()}, ${response.data[i].venue.country.toString()} at ${response.data[i].venue.name.toString()} ${response.data[i].datetime}`);      
+                let city = response.data[i].venue.city;
+                let region = response.data[i].venue.region;
+                let country = response.data[i].venue.country;
+                let venue = response.data[i].venue.name;
+                let date = "";
+                date = moment(response.data[i].datetime).format('MM/DD/YYYY');
+                console.log(`${city}, ${region}, ${country} at ${venue} on ${date}`);    
             }
         }).catch(function (error) {
         if (error.response) {
@@ -62,8 +73,7 @@ function concertThis() {
     });
 }
 
-
-
 // `spotify-this-song`
+
 // `movie-this`
 // `do-what-it-says`
