@@ -1,2 +1,0 @@
-# liri
-UCF Bootstrap Homework
