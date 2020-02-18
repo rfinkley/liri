@@ -65,5 +65,5 @@ The __do-what-it-says__ command reads the *random.txt* file and runs the command
 
 ## Log File
 The liri.js program logs all commands and results into a file called *log.txt*. 
-*Contents of log.txt:*' '
+> *Contents of log.txt:*
 ![log.txt results screenshot](/assets/images/logfile_results.png)
