@@ -1,0 +1,327 @@
+--------------------------------------------
+02/17/2020 8:35:56 pm: concert-this, Maroon 5
+Mexico, , Mexico at Foro Sol on 02/23/2020
+Mexico, , Mexico at Foro Sol on 02/24/2020
+Viña Del Mar, , Chile at Festival Vina Del Mar on 02/27/2020
+Santiago, , Chile at Estadio Bicentenario La Florida on 02/28/2020
+Sao Paulo, , Brazil at Allianz Parque on 03/01/2020
+Brasilia, , Brazil at Mané Garrincha Stadium on 03/03/2020
+Recife, , Brazil at Esplanada Do Classic Hall on 03/05/2020
+Rio De Janeiro, , Brazil at Area Externa Da Jeunesse Arena on 03/07/2020
+Montevideo, , Uruguay at Estadio Centenario on 03/10/2020
+Buenos Aires, , Argentina at Campo Argentino De Polo on 03/12/2020
+Bogotá, , Colombia at Parque Salitre Magico on 03/14/2020
+Chula Vista, CA, United States at North Island Credit Union Amphitheatre on 05/30/2020
+Phoenix, AZ, United States at AK Chin Pavilion on 05/31/2020
+Albuquerque, NM, United States at Isleta Amphitheater on 06/03/2020
+Denver, CO, United States at Pepsi Center on 06/05/2020
+Austin, TX, United States at Austin360 Amphitheater on 06/07/2020
+The Woodlands, TX, United States at Cynthia Woods Mitchell Pavilion presented by Huntsman on 06/08/2020
+Dallas, TX, United States at Dos Equis Pavilion on 06/10/2020
+Chicago, IL, United States at Wrigley Field on 06/13/2020
+Noblesville, IN, United States at Ruoff Home Mortgage Music Center  on 06/14/2020
+Clarkston, MI, United States at DTE Energy Music Theatre on 06/16/2020
+Cuyahoga Falls, OH, United States at Blossom Music Center on 06/18/2020
+Burgettstown, PA, United States at KeyBank Pavilion on 06/19/2020
+Boston, MA, United States at Fenway Park on 06/24/2020
+Flushing, NY, United States at Citi Field on 06/25/2020
+Darien Center, NY, United States at Darien Lake Amphitheater  on 06/27/2020
+Toronto, , Canada at Budweiser Stage on 06/28/2020
+North Little Rock, AR, United States at Simmons Bank Arena on 08/02/2020
+Oklahoma City, OK, United States at Chesapeake Energy Arena on 08/04/2020
+Lincoln, NE, United States at Pinnacle Bank Arena on 08/06/2020
+Fargo, ND, United States at Fargodome on 08/08/2020
+St Paul, MN, United States at Xcel Energy Center on 08/09/2020
+Edmonton, , Canada at Rogers Place on 08/12/2020
+Vancouver, , Canada at Pepsi Live at Rogers Arena  on 08/14/2020
+Auburn, WA, United States at White River Amphitheatre on 08/15/2020
+Portland, OR, United States at Rose Quarter (Consists of the Moda Center and Veterans Memorial Coliseum) on 08/17/2020
+Mountain View, CA, United States at Shoreline Amphitheatre and Grounds  on 08/19/2020
+Los Angeles, CA, United States at Los Angeles Football Club/Banc of California Stadium  on 08/21/2020
+Concord, CA, United States at Concord Pavilion on 08/22/2020
+Salt Lake City, UT, United States at USANA Amphitheatre  on 08/24/2020
+Kansas City, MO, United States at Sprint Center on 08/27/2020
+Maryland Heights, MO, United States at Hollywood Casino Amphitheatre on 08/29/2020
+Milwaukee, WI, United States at American Family Insurance Amphitheater on 08/30/2020
+Cincinnati, OH, United States at Riverbend Music Center on 09/01/2020
+Camden, NJ, United States at BB&T Pavilion on 09/03/2020
+Hershey, PA, United States at Hershey Park Pavilion/Stadium  on 09/05/2020
+Saratoga Springs, NY, United States at Saratoga Performing Arts Center Box Office on 09/06/2020
+Hartford, CT, United States at Xfinity Theatre on 09/09/2020
+Bristow, VA, United States at Jiffy Lube Live on 09/11/2020
+Raleigh, NC, United States at Coastal Credit Union Music Park @ Walnut Creek Amphitheatre on 09/12/2020
+Charlotte, NC, United States at PNC Music Pavilion on 09/14/2020
+West Palm Beach, FL, United States at Coral Sky Amphitheatre on 09/16/2020
+Tampa, FL, United States at MIDFLORIDA Credit Union Amphitheatre on 09/17/2020
+--------------------------------------------
+02/17/2020 8:36:26 pm: movie-this, Matrix
+--------------------------------------------
+02/17/2020 8:38:08 pm: movie-this, Matrix
+--------------------------------------------
+02/17/2020 8:40:03 pm: spotify-this-song, I'll Make Love To You
+--------------------------------------------
+0
+artist(s): Boyz II Men
+song name: I'll Make Love To You
+preview song: No preview link available
+album: II
+--------------------------------------------
+1
+artist(s): J.J. Cale
+song name: I'll Make Love To You Anytime
+preview song: No preview link available
+album: 5
+--------------------------------------------
+2
+artist(s): Babyface
+song name: I'll Make Love to You - Live On MTV Unplugged
+preview song: https://p.scdn.co/mp3-preview/81615c288e57501297b33dcc20e62d456517c66e?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Babyface Unplugged NYC 1997
+--------------------------------------------
+3
+artist(s): Lukas Nelson and Promise of the Real
+song name: I'll Make Love to You Any Ol' Time
+preview song: https://p.scdn.co/mp3-preview/666f880f7bec366d6146a1afa3e09939e7b59c2f?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Something Real
+--------------------------------------------
+4
+artist(s): Kirk Whalum
+song name: I'll Make Love To You
+preview song: https://p.scdn.co/mp3-preview/4ed1078bb8a4348db517883d3e25479e8524906e?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Performs the Babyface Songbook
+--------------------------------------------
+5
+artist(s): The Intimate Orchestra
+song name: I'll Make Love To You
+preview song: https://p.scdn.co/mp3-preview/999c7c9d9dab9e0c03b5961ecc61782a910f2c1f?cid=fe591cb5296748f4ae738299e3c77ff8
+album: 101 Instrumental Love Songs
+--------------------------------------------
+6
+artist(s): Eric Clapton
+song name: I'll Make Love To You Anytime
+preview song: No preview link available
+album: Backless
+--------------------------------------------
+7
+artist(s): Scary Pockets
+song name: I'll Make Love to You
+preview song: https://p.scdn.co/mp3-preview/dc2a4647c3ba57ad072cbe5397ac4e30534b1e6b?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Funk Walker
+--------------------------------------------
+8
+artist(s): Montgomery Smith
+song name: I'll Make Love to You
+preview song: https://p.scdn.co/mp3-preview/e03b46f11e02ec8f103529b2150631871863c6dd?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Dinner Music
+--------------------------------------------
+9
+artist(s): Nate Fifield
+song name: I'll Make Love to You (Adage 3)
+preview song: https://p.scdn.co/mp3-preview/976541f423e2fcf49764db3b7c321b0f5d4bc3f9?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Pop Hits for Ballet Class, Vol. 1
+--------------------------------------------
+10
+artist(s): Boyz II Men
+song name: I'll Make Love To You - Edit
+preview song: No preview link available
+album: Legacy: The Greatest Hits Collection (Deluxe Edition)
+--------------------------------------------
+11
+artist(s): Ahmir
+song name: I'll Make Love To You
+preview song: https://p.scdn.co/mp3-preview/c0c13b934764b61e7e9a11bdc43528e50a427270?cid=fe591cb5296748f4ae738299e3c77ff8
+album: I'll Make Love To You
+--------------------------------------------
+12
+artist(s): Thomas Doherty
+song name: I'll Make Love to You
+preview song: No preview link available
+album: High Fidelity (Original Soundtrack)
+--------------------------------------------
+13
+artist(s): The Dan Band
+song name: Bump N' Grind / I'll Make Love to You
+preview song: https://p.scdn.co/mp3-preview/7875c39d509f40dc426e0b5c5904f0edf4c50c86?cid=fe591cb5296748f4ae738299e3c77ff8
+album: The Wedding Album
+--------------------------------------------
+14
+artist(s): Tino Martin
+song name: I'll make love to you / End of the road - Live
+preview song: https://p.scdn.co/mp3-preview/16f229a99082fe8bdafc807550adb17266e55288?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Hét Concert Van Mijn Dromen XL (Live in de Ziggo Dome)
+--------------------------------------------
+15
+artist(s): The Barden Bellas
+song name: Riff Off: Mickey/Like A Virgin/Hit Me With Your Best Shot/S&M/Let’s Talk About Sex/I’ll Make Love To You/Feels Like The First Time/No Diggity
+preview song: No preview link available
+album: Ultimate Pitch Perfect (Original Motion Picture Soundtrack)
+--------------------------------------------
+16
+artist(s): Keith Sweat
+song name: I'll Give All My Love to You
+preview song: https://p.scdn.co/mp3-preview/ffdf30ae519c345251371e88ca5df5a92ffd32e3?cid=fe591cb5296748f4ae738299e3c77ff8
+album: The Best of Keith Sweat: Make You Sweat
+--------------------------------------------
+17
+artist(s): Boyz II Men
+song name: I'll Make Love To You
+preview song: https://p.scdn.co/mp3-preview/326a96edccc17e22bb7c8ee7b70b42e594f3275e?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Twenty
+--------------------------------------------
+18
+artist(s): Boyz II Men
+song name: I'll Make Love To You
+preview song: No preview link available
+album: 90s R&B
+--------------------------------------------
+19
+artist(s): Boyz II Men
+song name: I'll Make Love To You
+preview song: No preview link available
+album: The Best Of Boyz II Men 20th Century Masters The Millennium Collection
+--------------------------------------------
+02/17/2020 8:40:37 pm: do-what-it-says, 
+--------------------------------------------
+0
+artist(s): Backstreet Boys
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=fe591cb5296748f4ae738299e3c77ff8
+album: The Hits--Chapter One
+--------------------------------------------
+1
+artist(s): Mick Jensen
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=fe591cb5296748f4ae738299e3c77ff8
+album: I Want It That Way
+--------------------------------------------
+2
+artist(s): Anthem Lights
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Covers Part IV
+--------------------------------------------
+3
+artist(s): Tyler and Mark
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Beautiful Dreams
+--------------------------------------------
+4
+artist(s): Dynamite Boy
+song name: I Want It That Way
+preview song: No preview link available
+album: Punk Goes Pop
+--------------------------------------------
+5
+artist(s): Steel Panther
+song name: I Want It That Way
+preview song: No preview link available
+album: I Want It That Way
+--------------------------------------------
+6
+artist(s): Jess and Gabriel
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/cc50bfee8d34ec92fda4109243c7ef0e6856f185?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Under the Covers, Vol. 3
+--------------------------------------------
+7
+artist(s): Scary Pockets
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Nu Funk
+--------------------------------------------
+8
+artist(s): Backstreet Boys
+song name: I Want It That Way - Reimagined
+preview song: https://p.scdn.co/mp3-preview/7f612d6ba66571500e981e74bb36e14b9906be77?cid=fe591cb5296748f4ae738299e3c77ff8
+album: I Want It That Way (Reimagined)
+--------------------------------------------
+9
+artist(s): Manuel Costa
+song name: I Want It That Way - Manuel's Southbeat Mix
+preview song: No preview link available
+album: I Want It That Way (The Remixes)
+--------------------------------------------
+10
+artist(s): Boyce Avenue
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Cover Sessions, Vol. 2
+--------------------------------------------
+11
+artist(s): Ryan Tenner
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/9c9217848c811676226a09cf721f27f102588521?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Pop Piano Covers
+--------------------------------------------
+12
+artist(s): Cassidy Janson
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/6df704bcaee02f82fefacbfaaca2ab8858119947?cid=fe591cb5296748f4ae738299e3c77ff8
+album: & Juliet (Original London Cast Recording)
+--------------------------------------------
+13
+artist(s): Manuel Costa
+song name: I Want It That Way
+preview song: No preview link available
+album: I Want It That Way
+--------------------------------------------
+14
+artist(s): Scott Bradlee's Postmodern Jukebox
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=fe591cb5296748f4ae738299e3c77ff8
+album: Selfies on Kodachrome
+--------------------------------------------
+15
+artist(s): Yshop
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/8d1287b933d37b96943a5041ebcd46c328c9a0ce?cid=fe591cb5296748f4ae738299e3c77ff8
+album: I Want It That Way
+--------------------------------------------
+16
+artist(s): #90s Update
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/4722ade5be55bf642f5cc9578b94c092a0fcf3a7?cid=fe591cb5296748f4ae738299e3c77ff8
+album: #90s Update
+--------------------------------------------
+17
+artist(s): Oliver Tompsett
+song name: I Want It That Way - Reprise
+preview song: https://p.scdn.co/mp3-preview/a09ef57f7e6bfb7de66cb5c3b6d68d215f388d45?cid=fe591cb5296748f4ae738299e3c77ff8
+album: & Juliet (Original London Cast Recording)
+--------------------------------------------
+18
+artist(s): Landon Austin & Julia Sheer
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=fe591cb5296748f4ae738299e3c77ff8
+album: I Want It That Way
+--------------------------------------------
+19
+artist(s): FROIDZ
+song name: I Want It That Way
+preview song: https://p.scdn.co/mp3-preview/fdf46a47cbaf363ff9379b4222a74d1ba8291b67?cid=fe591cb5296748f4ae738299e3c77ff8
+album: I Want It That Way
+--------------------------------------------
+02/17/2020 8:41:42 pm: movie-this, Matrix
+--------------------------------------------
+02/17/2020 8:41:51 pm: movie-this, The Matrix
+-----------------------------------
+Title:The Matrix
+Year: 1999
+IMDB Rating: 8.7
+Rotten Tomatoes Rating: 88%
+Countries Filmed In: USA
+Lanuage: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+--------------------------------------------
+02/17/2020 8:42:08 pm: movie-this, Fargo
+-----------------------------------
+Title:Fargo
+Year: 1996
+IMDB Rating: 8.1
+Rotten Tomatoes Rating: 93%
+Countries Filmed In: USA, UK
+Lanuage: English
+Plot: Jerry Lundegaard's inept crime falls apart due to his and his henchmen's bungling and the persistent police work of the quite pregnant Marge Gunderson.
+Actors: William H. Macy, Steve Buscemi, Peter Stormare, Kristin Rudrüd

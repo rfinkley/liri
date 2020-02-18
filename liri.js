@@ -1,37 +1,51 @@
 require("dotenv").config();
 let moment = require("moment");
-var Spotify = require('node-spotify-api');
+let Spotify = require('node-spotify-api');
 let keys = require("./keys.js");
 let spotify = new Spotify(keys.spotify);
 let axios = require("axios");
-var fs = require("fs");
+let fs = require("fs");
+let logger = fs.createWriteStream('log.txt', {
+  flags: 'a'
+});
 
+//Create timestamp to append to log file
+let timestamp = moment().format('MM/DD/YYYY h:mm:ss a' + ': ');
+
+//Create variable to grab the command to be processed
 var action = process.argv[2];
+
 //Create a variable to handle the full search agrument
 let args = "";
+getArgs();
 
+//Create timestamp each time the application is run
+logger.write('--------------------------------------------\n' + timestamp + action + ", " + args + "\n");
+
+//Switch conditional to handle commands
 switch (action) {
     case "concert-this":
-        concertThis();
+        concertThis(args);
         break;
     case "spotify-this-song":
-        spotifyThis();
+        spotifyThis(args);
         break;
     case "movie-this":
-        movieThis();
+        movieThis(args);
         break;
     case "do-what-it-says":
         doIt();
         break;
 }
 
+//Grab arguments from process.argv
 function getArgs() {
     //Grab all the command line arguments
     let nodeArgs = process.argv;
     //Loop through the process.argv arguments starting at the 3rd index
     for (let i = 3; i < nodeArgs.length; i++) {
         if (i > 3 && i < nodeArgs.length) {
-            args = args + "%20" + nodeArgs[i];
+            args = args + " " + nodeArgs[i];
         } else {
             args += nodeArgs[i];
         }
@@ -40,8 +54,7 @@ function getArgs() {
 }
 
 //concert-this function
-function concertThis() {
-    getArgs();
+function concertThis(args) {
     //Create the query url for bandsintown.com
     let queryUrl = "https://rest.bandsintown.com/artists/" + args + "/events?app_id=codingbootcamp";
 
@@ -61,9 +74,10 @@ function concertThis() {
                 let venue = response.data[i].venue.name;
                 let date = "";
                 date = moment(response.data[i].datetime).format('MM/DD/YYYY');
-                console.log('-----------------------------------');
+                console.log('--------------------------------------------');
                 console.log(i);
                 console.log(`${city}, ${region}, ${country} at ${venue} on ${date}`);
+                logger.write(`${city}, ${region}, ${country} at ${venue} on ${date}` + "\n");
             }
         }).catch(function (error) {
         if (error.response) {
@@ -87,9 +101,8 @@ function concertThis() {
     });
 }
 
-// `spotify-this-song`
-function spotifyThis() {
-    getArgs();
+//spotify-this-song
+function spotifyThis(args) {
     if (args == "") {
         args = "The Sign";
     }
@@ -99,8 +112,6 @@ function spotifyThis() {
             query: args
         })
         .then(function (response) {
-            console.log(response.tracks.items.length);
-            console.log(typeof (response.tracks.items));
             let items = response.tracks.items;
             for (let i = 0; i < items.length; i++) {
                 let artists = items[i].artists[0].name;
@@ -112,12 +123,18 @@ function spotifyThis() {
                     preview = items[i].preview_url;
                 }
                 let album = items[i].album.name;
-                console.log('-----------------------------------');
+                console.log('--------------------------------------------');
                 console.log(i);
                 console.log('artist(s): ' + artists);
                 console.log('song name: ' + song);
                 console.log('preview song: ' + preview);
                 console.log('album: ' + album);
+                logger.write('--------------------------------------------' + "\n");
+                logger.write(i + "\n");
+                logger.write('artist(s): ' + artists + "\n");
+                logger.write('song name: ' + song + "\n");
+                logger.write('preview song: ' + preview + "\n");
+                logger.write('album: ' + album + "\n");
             }
         })
         .catch(function (err) {
@@ -125,10 +142,8 @@ function spotifyThis() {
         });
 }
 
-// `movie-this`
-function movieThis() {
-
-    getArgs();
+//movie-this
+function movieThis(args) {
     //Create the query url for obmdb
     if (args == "") {
         args = "Mr. Nobody";
@@ -156,8 +171,15 @@ function movieThis() {
             console.log('Lanuage: ' + language);
             console.log('Plot: ' + plot);
             console.log('Actors: ' + actors);
-
-
+            logger.write('-----------------------------------' + "\n");
+            logger.write('Title:' + title + "\n");
+            logger.write('Year: ' + year + "\n");
+            logger.write('IMDB Rating: ' + imdbRating + "\n");
+            logger.write('Rotten Tomatoes Rating: ' + rtRating + "\n");
+            logger.write('Countries Filmed In: ' + country + "\n");
+            logger.write('Lanuage: ' + language + "\n");
+            logger.write('Plot: ' + plot + "\n");
+            logger.write('Actors: ' + actors + "\n");
         }).catch(function (error) {
         if (error.response) {
             // The request was made and the server responded with a status code
@@ -180,9 +202,9 @@ function movieThis() {
     });
 }
 
-// `do-what-it-says`
+//do-what-it-says
 function doIt() {
-    // This block of code will read from the "movies.txt" file.
+    // This block of code will read from the "random.txt" file.
     // It's important to include the "utf8" parameter or the code will provide stream data (garbage)
     // The code will store the contents of the reading inside the variable "data"
     fs.readFile("random.txt", "utf8", function (error, data) {
@@ -198,36 +220,6 @@ function doIt() {
         let action = dataArr[0];
         let query = dataArr[1];
 
-        spotify
-            .search({
-                type: 'track',
-                query: query
-            })
-            .then(function (response) {
-                console.log(response.tracks.items.length);
-                console.log(typeof (response.tracks.items));
-                let items = response.tracks.items;
-                for (let i = 0; i < items.length; i++) {
-                    let artists = items[i].artists[0].name;
-                    let song = items[i].name;
-                    let preview = "";
-                    if (items[i].preview_url == null) {
-                        preview = "No preview link available";
-                    } else {
-                        preview = items[i].preview_url;
-                    }
-                    let album = items[i].album.name;
-                    console.log('-----------------------------------');
-                    console.log(i);
-                    console.log('artist(s): ' + artists);
-                    console.log('song name: ' + song);
-                    console.log('preview song: ' + preview);
-                    console.log('album: ' + album);
-                }
-            })
-            .catch(function (err) {
-                console.log(err);
-            });
-
+        spotifyThis(query);
     });
 }
