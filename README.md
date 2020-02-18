@@ -33,9 +33,25 @@ __spotify-this-song__ returns:
 *code Example:* `node liri.js spotify-this-song Hotel California`
 ![spotify-this-song screenshot](/assets/images/spotify_this_song_result.png)
 
-*Results spotify-this-song with no user input* `node liri.js spotify-this-song`
+*Results of spotify-this-song with no user input* `node liri.js spotify-this-song`
 ![spotify-this-song no input screenshot](/assets/images/spotify_this_song_noinput_result.png)
 
 ## movie-this
-Thie __movie-this__ command 
+Thie __movie-this__ command takes a movie title and returns information about the given movie.
+
+__movie-this__ returns:
+* Title
+* Release Year
+* IMDB rating
+* Rotten Tomatoes rating
+* Country
+* Movie language
+* Plot
+* Actors
+
+*code Example:* `node liri.js movie-this The Matrix`
+![movie-this screenshot](/assets/images/movie_this_result.png)
+
+*Results of movie-this with no user input* `node liri.js movie-this`
+![movie-this no input screenshot](/assets/images/movie_this_noinput_result.png)
 
