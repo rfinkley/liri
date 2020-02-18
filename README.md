@@ -57,6 +57,7 @@ __movie-this__ returns:
 ## do-what-it-says
 The __do-what-it-says__ command reads the *random.txt* file and runs the command listed in the file.
 
+*Contents of random.txt:*
 ![Contents of random.txt](/assets/images/random_txt_contents.png)
 
 *code Example:* `node liri.js do-what-it-says`
@@ -64,4 +65,5 @@ The __do-what-it-says__ command reads the *random.txt* file and runs the command
 
 ## Log File
 The liri.js program logs all commands and results into a file called *log.txt*. 
+*Contents of log.txt:*
 ![log.txt results screenshot](/assets/images/logfile_results.png)
