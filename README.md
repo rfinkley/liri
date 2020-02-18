@@ -14,7 +14,7 @@ __concert-this__
 The 'concert-this' command takes a band or artist name as an argument and searches the bandsintown api for upcoming concerts for the given band or artist.
 
 *code Example:* `node liri.js concert-this Maroon 5`
-![GitHub Logo](/images/logo.png)
+![concert-this screenshot](/assets/images/concert_this_result.png)
 
 
 
