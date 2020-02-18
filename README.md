@@ -36,7 +36,7 @@ __spotify-this-song__ returns:
 ![spotify-this-song no input screenshot](/assets/images/spotify_this_song_noinput_result.png)
 
 ## movie-this
-Thie __movie-this__ command takes a movie title and returns information about the given movie.
+The __movie-this__ command takes a movie title and returns information about the given movie.
 
 __movie-this__ returns:
 * Title
@@ -53,3 +53,15 @@ __movie-this__ returns:
 
 *Results of movie-this with no user input* `node liri.js movie-this`
 ![movie-this with no input screenshot](/assets/images/movie_this_noinput_result.png)
+
+## do-what-it-says
+The __do-what-it-says__ command reads the *random.txt* file and runs the command listed in the file.
+
+![Contents of random.txt](/assets/images/random_txt_contents.png)
+
+*code Example:* `node liri.js do-what-it-says`
+![do-what-it-says screenshot](/assets/images/do_what_it_says_results.png)
+
+## Log File
+The liri.js program logs all commands and results into a file called *log.txt*. 
+![log.txt results screenshot](/assets/images/logfile_results.png)
