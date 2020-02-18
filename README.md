@@ -1,8 +1,7 @@
 # Liri
-*By: RFinkley*
 
 ###Overview
-This project creates a command line Node.js application that provides four commands that allows a use to retrieve concert, movie, and song information. The last command runs a command from the *random.txt* file. This assignment required the use of several node packages including:
+This project creates a command line Node.js application that provides four commands that allows a user to retrieve concert, movie, and song information. The last command runs a command from the *random.txt* file. This assignment required the use of several node packages including:
 * axios
 * dotenv
 * moment
@@ -51,3 +50,6 @@ __movie-this__ returns:
 
 *code Example:* `node liri.js movie-this The Matrix`
 ![movie-this screenshot](/assets/images/movie_this_result.png)
+
+*Results of movie-this with no user input* `node liri.js movie-this`
+![movie-this with no input screenshot](/assets/images/movie_this_noinput_result.png)
