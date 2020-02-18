@@ -1,4 +1,4 @@
-#Liri
+#Liri#
 *By: RFinkley*
 
 ###Overview
@@ -10,7 +10,7 @@ This project creates a command line Node.js application that provides four comma
 
 Below is a description of the functionality provided by each of the commands.
 
-1. __concert-this__
+__concert-this__
 The 'concert-this' command takes a band or artist name as an argument and searches the bandsintown api for upcoming concerts for the given band or artist.
 
 __Code Example:__ `node liri.js concert-this Maroon 5`
